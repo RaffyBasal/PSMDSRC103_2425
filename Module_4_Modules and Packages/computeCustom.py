@@ -1,8 +1,8 @@
 # Custom Computations
 # computeCustom.py
 
-def factLoop(n):
-    sum = 1
-    for i in range(n):
-        sum *= i
-    return sum
+def fact(n):
+    if n == 1:
+        return 1
+    
+    return n * fact(n-1)
