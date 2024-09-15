@@ -1,3 +1,3 @@
 import computeCustom
 
-computeCustom.factLoop(5)
+print(computeCustom.factLoop(5))
