@@ -1,3 +1,4 @@
-import computeCustom
+import computeCustom as cC
 
-print(computeCustom.factLoop(5))
+# print(computeCustom.factLoop(5))
+print(cC.factLoop(5))
